@@ -241,7 +241,7 @@ nav ul {
 }
 
 .card {
-  max-width: 55rem;
+  max-width: 35rem;
   border: 0;
   width: 100%;
   margin-inline: auto;
@@ -397,8 +397,8 @@ country Card
 .country-section {
   margin: 6.4rem auto 9.6rem auto;
   & .grid {
-    gap: 3.2rem;
-    max-width: 132rem;
+    gap: 1rem;
+    max-width: 116rem;
     margin: auto;
   }
 
@@ -411,7 +411,7 @@ country Card
 
 /* indivisual card container  */
 .country-details-card {
-  max-width: 100%;
+  max-width: 80%;
   margin: 6.4rem auto;
   box-shadow: rgba(168, 163, 184, 0.15) 0px 48px 100px 0px;
 
@@ -465,6 +465,8 @@ country Card
     color: rgba(255, 255, 255, 0.8);
     border: 0.05rem solid #fff;
     background: linear-gradient(71deg, #080509, #1a171c, #080509);
+    padding: 1rem;
+    border-radius: 2rem;
   }
 
   & .select-section {
